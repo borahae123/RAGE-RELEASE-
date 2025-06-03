@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rage & Release</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="rage-zone" class="phase active">
+      <canvas id="confetti-canvas"></canvas>
+      <h1 class="rage-text">SMASH THOSE KEYS</h1>
+      <div id="rage-words"></div>
+    </div>
+
+    <div id="calm-zone" class="phase hidden">
+      <canvas id="calm-canvas"></canvas>
+      <h1 class="calm-text">Breathe, Baby Girl 😌</h1>
+      <div id="calm-words"></div>
+    </div>
+
+    <div id="rant-zone" class="phase hidden">
+      <textarea id="rant-input" placeholder="Let it all out here..."></textarea>
+      <button id="submit-rant">Release the Rage</button>
+    </div>
+
+    <div id="final-zone" class="phase hidden">
+      <h1>You got this, baby 💖</h1>
+      <p>Come back anytime you need a breather.</p>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
